@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-testing-dev-175729-authRole",
+      "UnauthRoleArn": "arn:aws:iam::901514016918:role/amplify-testing-dev-175729-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::901514016918:role/amplify-testing-dev-175729-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-testing-dev-175729-deployment",
+      "UnauthRoleName": "amplify-testing-dev-175729-unauthRole",
+      "StackName": "amplify-testing-dev-175729",
+      "StackId": "arn:aws:cloudformation:us-east-1:901514016918:stack/amplify-testing-dev-175729/b87119b0-481f-11ee-9e4a-0acd5be8923f",
+      "AmplifyAppId": "d399v1upup8q9r"
+    }
+  },
+  "auth": {
+    "testing9c757385": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-testing-dev-175729-deployment/amplify-cfn-templates/auth/testing9c757385-cloudformation-template.json",
+        "logicalId": "authtesting9c757385"
+      },
+      "lastPushTimeStamp": "2023-08-31T17:25:38.952Z",
+      "output": {
+        "UserPoolId": "us-east-1_JLUrshTm3",
+        "AppClientIDWeb": "66sj21mqb2rip5a2h8febelm7d",
+        "AppClientID": "7rrqfrt2vfcdo7oerqh5h12qnn",
+        "IdentityPoolId": "us-east-1:19296443-67c3-4163-98cb-201770815270",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:901514016918:userpool/us-east-1_JLUrshTm3",
+        "IdentityPoolName": "testing9c757385_identitypool_9c757385__dev",
+        "UserPoolName": "testing9c757385_userpool_9c757385"
+      },
+      "lastPushDirHash": "K1O/dbAuIaf6rMvrd7mlB6Ur11I="
+    }
+  }
+}
